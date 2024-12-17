@@ -1,5 +1,8 @@
 #include "/home/chiranjeet/kernel_making/UART_protocol/protocol/header_files/uart.h"
+// i)#include "/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h"
 #include <stdint.h>
+// this  sample  uses arm-non-eabi-gcc compiler toolchain based on gcc compiler 
+//ISSUE :  this compiler used here is not able to locate stdint.h if used without whole path needs a fix 
 
 // Circular buffer for received data
 char *circular_buffer;  // Removed static
