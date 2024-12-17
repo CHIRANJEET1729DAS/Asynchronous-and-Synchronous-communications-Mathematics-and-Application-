@@ -1,7 +1,11 @@
 #ifndef UART_H
 #define UART_H
 
-#include "/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h"
+// i)#include "/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h"
+#include <stdint.h>
+// this  sample  uses arm-non-eabi-gcc compiler 
+//ISSUE :  this compiler used here is not able to locate stdint.h if used without whole path needs a fix 
+
 typedef struct {
    uint32_t baud_rate;  // Correct type: uint32_t
    uint8_t data_bits;   // Correct type: uint8_t
