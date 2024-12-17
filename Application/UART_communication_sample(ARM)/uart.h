@@ -3,7 +3,7 @@
 
 // i)#include "/usr/lib/gcc/arm-none-eabi/14.2.0/include/stdint.h"
 #include <stdint.h>
-// this  sample  uses arm-non-eabi-gcc compiler 
+// this  sample  uses arm-non-eabi-gcc compiler toolchain based on gcc compiler 
 //ISSUE :  this compiler used here is not able to locate stdint.h if used without whole path needs a fix 
 
 typedef struct {
